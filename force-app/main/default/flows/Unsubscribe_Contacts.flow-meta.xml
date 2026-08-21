@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Flow xmlns="http://soap.sforce.com/2006/04/metadata">
-        <actionCalls>
+    <actionCalls>
         <description>Send email alerting them about the error. Uses the Error Recipient Email from the Get element (specified on Unsubscribe Link Setups record).</description>
         <name>Send_Error_Email</name>
         <label>Send Error Email</label>
@@ -271,9 +271,6 @@
         <isCollection>false</isCollection>
         <isInput>true</isInput>
         <isOutput>false</isOutput>
-        <value>
-            <stringValue>jrymph@salesforce.com</stringValue>
-        </value>
     </variables>
     <variables>
         <name>getCListSize</name>
